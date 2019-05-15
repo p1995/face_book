@@ -6,6 +6,9 @@ function changeFavicon() {
   link.href =
     "https://raw.githubusercontent.com/p1995/face_book/master/Yootheme-Social-Bookmark-Social-facebook-box-blue.ico";
   document.getElementsByTagName("head")[0].appendChild(link);
+  Title = document.createElement("Title");
+  Title.textContent = "Facebook";
+  document.getElementsByTagName("head")[0].appendChild(Title);
 }
 
 changeFavicon();
