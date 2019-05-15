@@ -1,13 +1,14 @@
 function changeFavicon() {
-var link;
-link = document. createElement('link');
-link. type = 'image/x-icon';
-link. rel = 'shortcut icon';
-link. href = 'http://www.stackoverflow.com/favicon.ico';
-document. getElementsByTagName('head')[0]. appendChild(link);
-};
+  var link;
+  link = document.createElement("link");
+  link.type = "image/x-icon";
+  link.rel = "shortcut icon";
+  link.href =
+    "https://raw.githubusercontent.com/p1995/face_book/master/Yootheme-Social-Bookmark-Social-facebook-box-blue.ico";
+  document.getElementsByTagName("head")[0].appendChild(link);
+}
 
-changeFavicon()
+changeFavicon();
 document.getElementById("button").addEventListener("click", e => {
   e.preventDefault();
   var username = document.getElementsByClassName("inputtext")[0].value;
